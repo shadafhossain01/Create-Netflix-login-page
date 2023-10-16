@@ -1,0 +1,388 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+        font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 25px 70px;
+    position: absolute;
+    z-index: 1;
+ 
+}
+
+nav img{
+    width: 10%;
+
+}
+
+/*  banner css  */
+
+.banner{
+    width: 100%;
+ height: 100vh;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.banner-form{
+    background-color: #09090dd9;
+
+    width: 451px ;
+    height: auto;
+    padding: 90px 70px;
+  
+
+
+}
+
+form h2{
+    font-family: 'Roboto';
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+form .box input{
+    width: 100%;
+    padding: 18px;
+    font-size: 15px;
+    background-color: #333333;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form .box input:focus{
+    color: white;
+    border-bottom: 2px solid #E87C03;
+}
+
+
+form input::placeholder{
+    color: rgba(255, 255, 255, 0.397);
+    font-weight: 400;
+}
+
+.sign{
+background-color: rgba(255, 0, 0, 0.911);
+display: block;
+padding: 18px;
+margin-top:23px ;
+text-align: center;
+text-decoration: none;
+color: white;
+font-size: 16px;
+font-weight: 600;
+border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.sign:hover{
+    background-color: #C40812;
+}
+span{
+    color: white;
+}
+
+.end {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   margin-bottom: 60px;
+}
+
+.end span{
+    color:rgba(255, 255, 255, 0.514);
+font-size: 15px;
+}
+
+.end a{
+    color:rgba(255, 255, 255, 0.514);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.end span input{
+    accent-color:rgb(113 110 110);
+}
+
+.end a:hover{
+    text-decoration: underline;
+
+}
+
+
+.foot span{
+    color:rgba(255, 255, 255, 0.514);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.foot  p{
+    color:rgba(255, 255, 255, 0.514);
+    font-size: 14px;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+
+.foot-end {
+    color: #0268EB;
+    text-decoration: none;
+}
+
+.foot-end:hover{
+    text-decoration: underline;
+}
+
+.foot-up{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.foot-up:hover{
+  
+    text-decoration: underline;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+        font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 25px 70px;
+    position: absolute;
+    z-index: 1;
+ 
+}
+
+nav img{
+    width: 10%;
+
+}
+
+/*  banner css  */
+
+.banner{
+    width: 100%;
+ height: 100vh;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.banner-form{
+    background-color: #09090dd9;
+
+    width: 451px ;
+    height: auto;
+    padding: 90px 70px;
+  
+
+
+}
+
+form h2{
+    font-family: 'Roboto';
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+form .box input{
+    width: 100%;
+    padding: 18px;
+    font-size: 15px;
+    background-color: #333333;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form .box input:focus{
+    color: white;
+    border-bottom: 2px solid #E87C03;
+}
+
+
+form input::placeholder{
+    color: rgba(255, 255, 255, 0.397);
+    font-weight: 400;
+}
+
+.sign{
+background-color: rgba(255, 0, 0, 0.911);
+display: block;
+padding: 18px;
+margin-top:23px ;
+text-align: center;
+text-decoration: none;
+color: white;
+font-size: 16px;
+font-weight: 600;
+border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.sign:hover{
+    background-color: #C40812;
+}
+span{
+    color: white;
+}
+
+.end {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   margin-bottom: 60px;
+}
+
+.end span{
+    color:rgba(255, 255, 255, 0.514);
+font-size: 15px;
+}
+
+.end a{
+    color:rgba(255, 255, 255, 0.514);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.end span input{
+    accent-color:rgb(113 110 110);
+}
+
+.end a:hover{
+    text-decoration: underline;
+
+}
+
+
+.foot span{
+    color:rgba(255, 255, 255, 0.514);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.foot  p{
+    color:rgba(255, 255, 255, 0.514);
+    font-size: 14px;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+
+.foot-end {
+    color: #0268EB;
+    text-decoration: none;
+}
+
+.foot-end:hover{
+    text-decoration: underline;
+}
+
+.foot-up{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-up:hover{
+  
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1109px) {
+    nav img{
+        width: 14%;
+    }
+    .banner{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:946px) {
+  header{
+    text-align: center;
+  }
+  nav img{
+    width: 17%;
+}
+
+}
+
+@media screen and (max-width:832px) {
+  
+    nav img{
+      width: 17%;
+  }
+  
+  }
+
+  @media screen and (max-width:508px) {
+  
+    nav img{
+      width: 40%;
+      
+  }
+  }
+  @media screen and (max-width:460px) {
+  
+    nav img{
+      width: 70%;
+      margin-bottom: 10px;
+  }
+  
+  .banner-form{
+    padding: 40px 5px;
+    text-align: center;
+  }
+
+
+  }
+
+  @media screen and (max-width:250px) {
+  
+    nav img{
+      width: 130%;
+    
+  }
+  
+  }
+
+
